@@ -1,168 +1,172 @@
-export const FLAGS = {
+// ==========================================
+// MAPEAMENTO DE IMAGENS LOCAIS (CONSTANTE)
+// ==========================================
+// Este arquivo serve apenas para configurar os requires das imagens.
+
+const FLAGS = {
   // === A ===
   ABK: require("../../assets/jogos/abkhazia.png"),
   AFG: require("../../assets/jogos/afghanistan.png"),
   ALA: require("../../assets/jogos/aland islands.png"),
   ALB: require("../../assets/jogos/albania.png"),
   DZA: require("../../assets/jogos/Algeria.png"),
-  ALG: require("../../assets/jogos/Algeria.png"), // Código alternativo
+  ALG: require("../../assets/jogos/Algeria.png"), 
   ASM: require("../../assets/jogos/american samoa.png"),
   AND: require("../../assets/jogos/andorra.png"),
   AGO: require("../../assets/jogos/angola.png"),
-  ANG: require("../../assets/jogos/angola.png"), // Código esportivo
+  ANG: require("../../assets/jogos/angola.png"), 
   AIA: require("../../assets/jogos/anguilla.png"),
   ATG: require("../../assets/jogos/antigua and barbuda.png"),
-  ANT: require("../../assets/jogos/antigua and barbuda.png"), // Código alternativo
+  ANT: require("../../assets/jogos/antigua and barbuda.png"), 
   ARG: require("../../assets/jogos/argentina.png"),
   ARM: require("../../assets/jogos/armenia.png"),
   ABW: require("../../assets/jogos/aruba.png"),
-  ARU: require("../../assets/jogos/aruba.png"), // Código alternativo
+  ARU: require("../../assets/jogos/aruba.png"), 
   AUS: require("../../assets/jogos/australia.png"),
   AUT: require("../../assets/jogos/austria.png"),
   AZE: require("../../assets/jogos/azerbaijan.png"),
-  AZO: require("../../assets/jogos/azores islands.png"), // Açores
+  AZO: require("../../assets/jogos/azores islands.png"), 
 
   // === B ===
   BHS: require("../../assets/jogos/bahamas.png"),
-  BAH: require("../../assets/jogos/bahamas.png"), // Código esportivo
+  BAH: require("../../assets/jogos/bahamas.png"), 
   BHR: require("../../assets/jogos/bahrain.png"),
-  BRN: require("../../assets/jogos/bahrain.png"), // Código alternativo
-  BAL: require("../../assets/jogos/balearic islands.png"), // Ilhas Baleares
+  BRN: require("../../assets/jogos/bahrain.png"), 
+  BAL: require("../../assets/jogos/balearic islands.png"), 
   BGD: require("../../assets/jogos/bangladesh.png"),
-  BAN: require("../../assets/jogos/bangladesh.png"), // Código esportivo
+  BAN: require("../../assets/jogos/bangladesh.png"), 
   BRB: require("../../assets/jogos/barbados.png"),
-  BAR: require("../../assets/jogos/barbados.png"), // Código esportivo
-  BAS: require("../../assets/jogos/basque country.png"), // País Basco
+  BAR: require("../../assets/jogos/barbados.png"), 
+  BAS: require("../../assets/jogos/basque country.png"), 
   BLR: require("../../assets/jogos/belarus.png"),
   BEL: require("../../assets/jogos/belgium.png"),
   BLZ: require("../../assets/jogos/belize.png"),
-  BIZ: require("../../assets/jogos/belize.png"), // Código alternativo
+  BIZ: require("../../assets/jogos/belize.png"), 
   BEN: require("../../assets/jogos/benin.png"),
   BMU: require("../../assets/jogos/bermuda.png"),
-  BER: require("../../assets/jogos/bermuda.png"), // Código esportivo
+  BER: require("../../assets/jogos/bermuda.png"), 
   BTN: require("../../assets/jogos/bhutan.png"),
-  BHU: require("../../assets/jogos/bhutan.png"), // Código esportivo
+  BHU: require("../../assets/jogos/bhutan.png"), 
   BOL: require("../../assets/jogos/bolivia.png"),
-  BES: require("../../assets/jogos/bonaire.png"), // Bonaire
-  BON: require("../../assets/jogos/bonaire.png"), // Código alternativo
+   BES: require("../../assets/jogos/bonaire.png"), 
+  BON: require("../../assets/jogos/bonaire.png"), 
   BIH: require("../../assets/jogos/bosnia and herzegovina.png"),
-  BOS: require("../../assets/jogos/bosnia and herzegovina.png"), // Código esportivo
+  BOS: require("../../assets/jogos/bosnia and herzegovina.png"), 
   BWA: require("../../assets/jogos/botswana.png"),
-  BOT: require("../../assets/jogos/botswana.png"), // Código esportivo
+  BOT: require("../../assets/jogos/botswana.png"), 
   BRA: require("../../assets/jogos/brazil.png"),
-  BC: require("../../assets/jogos/british columbia.png"), // Columbia Britânica
+  BC: require("../../assets/jogos/british columbia.png"), 
   IOT: require("../../assets/jogos/british indian ocean territory.png"),
   VGB: require("../../assets/jogos/british virgin islands.png"),
-  BVI: require("../../assets/jogos/british virgin islands.png"), // Código alternativo
+  BVI: require("../../assets/jogos/british virgin islands.png"), 
   BRN: require("../../assets/jogos/brunei.png"),
-  BRU: require("../../assets/jogos/brunei.png"), // Código esportivo
+  BRU: require("../../assets/jogos/brunei.png"), 
   BGR: require("../../assets/jogos/bulgaria.png"),
-  BUL: require("../../assets/jogos/bulgaria.png"), // Código esportivo
+  BUL: require("../../assets/jogos/bulgaria.png"), 
   BFA: require("../../assets/jogos/burkina faso.png"),
-  BUR: require("../../assets/jogos/burkina faso.png"), // Código esportivo
+  BUR: require("../../assets/jogos/burkina faso.png"), 
   BDI: require("../../assets/jogos/burundi.png"),
 
   // === C ===
   KHM: require("../../assets/jogos/cambodia.png"),
-  CAM: require("../../assets/jogos/cambodia.png"), // Código esportivo
+  CAM: require("../../assets/jogos/cambodia.png"), 
   CMR: require("../../assets/jogos/cameroon.png"),
-  CAF: require("../../assets/jogos/cameroon.png"), // Código alternativo
   CAN: require("../../assets/jogos/canada.png"),
-  CAN_IS: require("../../assets/jogos/canary islands.png"), // Ilhas Canárias
+  CAN_IS: require("../../assets/jogos/canary islands.png"), 
   CPV: require("../../assets/jogos/cape verde.png"),
-  CAP: require("../../assets/jogos/cape verde.png"), // Código alternativo
+  CAP: require("../../assets/jogos/cape verde.png"), 
   CYM: require("../../assets/jogos/cayman islands.png"),
-  CAY: require("../../assets/jogos/cayman islands.png"), // Código esportivo
-  CAF: require("../../assets/jogos/central african republic.png"),
-  CTA: require("../../assets/jogos/ceuta.png"), // Ceuta
+  CAY: require("../../assets/jogos/cayman islands.png"), 
+  CAF: require("../../assets/jogos/central african republic.png"), 
+  CTA: require("../../assets/jogos/ceuta.png"), 
   TCD: require("../../assets/jogos/chad.png"),
-  CHA: require("../../assets/jogos/chad.png"), // Código esportivo
+  CHA: require("../../assets/jogos/chad.png"), 
   CHL: require("../../assets/jogos/chile.png"),
-  CHI: require("../../assets/jogos/chile.png"), // Código esportivo
+  CHI: require("../../assets/jogos/chile.png"), 
   CHN: require("../../assets/jogos/china.png"),
-  CCK: require("../../assets/jogos/cocos island.png"), // Ilha Cocos
+  CCK: require("../../assets/jogos/cocos island.png"), 
   COL: require("../../assets/jogos/colombia.png"),
   COM: require("../../assets/jogos/comoros.png"),
   COK: require("../../assets/jogos/cook islands.png"),
-  COR: require("../../assets/jogos/corsica.png"), // Córsega
+  COR: require("../../assets/jogos/corsica.png"), 
   CRI: require("../../assets/jogos/costa rica.png"),
-  CRC: require("../../assets/jogos/costa rica.png"), // Código esportivo
+  CRC: require("../../assets/jogos/costa rica.png"), 
   HRV: require("../../assets/jogos/croatia.png"),
-  CRO: require("../../assets/jogos/croatia.png"), // Código esportivo
+  CRO: require("../../assets/jogos/croatia.png"), 
   CUB: require("../../assets/jogos/cuba.png"),
   CUW: require("../../assets/jogos/curacao.png"),
-  CUR: require("../../assets/jogos/curacao.png"), // Código alternativo
+  CUR: require("../../assets/jogos/curacao.png"), 
   CYP: require("../../assets/jogos/cyprus.png"),
   CZE: require("../../assets/jogos/czech republic.png"),
-  CZR: require("../../assets/jogos/czech republic.png"), // Código alternativo
+  CZR: require("../../assets/jogos/czech republic.png"), 
 
   // === D ===
   COD: require("../../assets/jogos/democratic republic of congo.png"),
-  DRC: require("../../assets/jogos/democratic republic of congo.png"), // Código alternativo
+  DRC: require("../../assets/jogos/democratic republic of congo.png"), 
   DNK: require("../../assets/jogos/denmark.png"),
-  DEN: require("../../assets/jogos/denmark.png"), // Código esportivo
+  DEN: require("../../assets/jogos/denmark.png"), 
   DJI: require("../../assets/jogos/djibouti.png"),
   DMA: require("../../assets/jogos/dominica.png"),
   DOM: require("../../assets/jogos/dominican republic.png"),
 
   // === E ===
   TLS: require("../../assets/jogos/East Timor.png"),
-  TIM: require("../../assets/jogos/East Timor.png"), // Código esportivo
+  TIM: require("../../assets/jogos/East Timor.png"), 
   ECU: require("../../assets/jogos/ecuador.png"),
   EGY: require("../../assets/jogos/egypt.png"),
   SLV: require("../../assets/jogos/el salvador.png"),
-  ESA: require("../../assets/jogos/el salvador.png"), // Código esportivo
+  ESA: require("../../assets/jogos/el salvador.png"), 
   ENG: require("../../assets/jogos/england.png"),
   GNQ: require("../../assets/jogos/equatorial guinea.png"),
-  EQG: require("../../assets/jogos/equatorial guinea.png"), // Código alternativo
+  EQG: require("../../assets/jogos/equatorial guinea.png"), 
   ERI: require("../../assets/jogos/eritrea.png"),
   EST: require("../../assets/jogos/estonia.png"),
   ETH: require("../../assets/jogos/ethiopia.png"),
-  EU: require("../../assets/jogos/european union.png"), // União Europeia
+  EU: require("../../assets/jogos/european union.png"), 
 
   // === F ===
   FLK: require("../../assets/jogos/falkland islands.png"),
   FRO: require("../../assets/jogos/faroe islands.png"),
-  FAR: require("../../assets/jogos/faroe islands.png"), // Código alternativo
+  FAR: require("../../assets/jogos/faroe islands.png"), 
   FJI: require("../../assets/jogos/fiji.png"),
   FIN: require("../../assets/jogos/finland.png"),
   FRA: require("../../assets/jogos/france.png"),
   PYF: require("../../assets/jogos/french polynesia.png"),
-  TAH: require("../../assets/jogos/french polynesia.png"), // Código alternativo (Tahiti)
+  TAH: require("../../assets/jogos/french polynesia.png"), 
 
   // === G ===
   GAB: require("../../assets/jogos/gabon.png"),
-  GAL: require("../../assets/jogos/galapagos islands.png"), // Galápagos
+  GAL: require("../../assets/jogos/galapagos islands.png"), 
   GMB: require("../../assets/jogos/gambia.png"),
-  GAM: require("../../assets/jogos/gambia.png"), // Código esportivo
+  GAM: require("../../assets/jogos/gambia.png"), 
   GEO: require("../../assets/jogos/georgia.png"),
   DEU: require("../../assets/jogos/germany.png"),
-  GER: require("../../assets/jogos/germany.png"), // Código esportivo
+  GER: require("../../assets/jogos/germany.png"), 
   GHA: require("../../assets/jogos/ghana.png"),
   GIB: require("../../assets/jogos/gibraltar.png"),
   GRC: require("../../assets/jogos/greece.png"),
-  GRE: require("../../assets/jogos/greece.png"), // Código esportivo
+  GRE: require("../../assets/jogos/greece.png"), 
   GRL: require("../../assets/jogos/greenland.png"),
-  GRN: require("../../assets/jogos/greenland.png"), // Código alternativo
+  GRN: require("../../assets/jogos/greenland.png"), 
   GRD: require("../../assets/jogos/grenada.png"),
-  GRN_IS: require("../../assets/jogos/grenada.png"), // Código alternativo
+  GRN_IS: require("../../assets/jogos/grenada.png"), 
   GUM: require("../../assets/jogos/guam.png"),
   GTM: require("../../assets/jogos/guatemala.png"),
-  GUA: require("../../assets/jogos/guatemala.png"), // Código esportivo
+  GUA: require("../../assets/jogos/guatemala.png"), 
   GGY: require("../../assets/jogos/guernsey.png"),
-  GUE: require("../../assets/jogos/guernsey.png"), // Código alternativo
+  GUE: require("../../assets/jogos/guernsey.png"), 
   GNB: require("../../assets/jogos/guinea bissau.png"),
-  GBS: require("../../assets/jogos/guinea bissau.png"), // Código alternativo
+  GBS: require("../../assets/jogos/guinea bissau.png"), 
   GIN: require("../../assets/jogos/guinea.png"),
-  GUI: require("../../assets/jogos/guinea.png"), // Código esportivo
+  GUI: require("../../assets/jogos/guinea.png"), 
   GUY: require("../../assets/jogos/guyana.png"),
 
   // === H ===
   HTI: require("../../assets/jogos/haiti.png"),
-  HAI: require("../../assets/jogos/haiti.png"), // Código esportivo
-  HAW: require("../../assets/jogos/hawaii.png"), // Havaí
+  HAI: require("../../assets/jogos/haiti.png"), 
+  HAW: require("../../assets/jogos/hawaii.png"), 
   HND: require("../../assets/jogos/honduras.png"),
-  HON: require("../../assets/jogos/honduras.png"), // Código esportivo
+  HON: require("../../assets/jogos/honduras.png"), 
   HKG: require("../../assets/jogos/hong kong.png"),
   HUN: require("../../assets/jogos/hungary.png"),
 
@@ -170,17 +174,17 @@ export const FLAGS = {
   ISL: require("../../assets/jogos/iceland.png"),
   IND: require("../../assets/jogos/india.png"),
   IDN: require("../../assets/jogos/indonesia.png"),
-  INA: require("../../assets/jogos/indonesia.png"), // Código esportivo
+  INA: require("../../assets/jogos/indonesia.png"), 
   IRN: require("../../assets/jogos/iran.png"),
-  IRI: require("../../assets/jogos/iran.png"), // Código esportivo
+  IRI: require("../../assets/jogos/iran.png"), 
   IRQ: require("../../assets/jogos/iraq.png"),
   IRL: require("../../assets/jogos/ireland.png"),
-  IRE: require("../../assets/jogos/ireland.png"), // Código alternativo
+  IRE: require("../../assets/jogos/ireland.png"), 
   IMN: require("../../assets/jogos/isle of man.png"),
   ISR: require("../../assets/jogos/israel.png"),
   ITA: require("../../assets/jogos/italy.png"),
   CIV: require("../../assets/jogos/ivory coast.png"),
-  IVC: require("../../assets/jogos/ivory coast.png"), // Código alternativo
+  IVC: require("../../assets/jogos/ivory coast.png"), 
 
   // === J ===
   JAM: require("../../assets/jogos/jamaica.png"),
@@ -193,192 +197,191 @@ export const FLAGS = {
   KEN: require("../../assets/jogos/kenya.png"),
   KIR: require("../../assets/jogos/kiribati.png"),
   XKX: require("../../assets/jogos/kosovo.png"),
-  KOS: require("../../assets/jogos/kosovo.png"), // Código alternativo
+  KOS: require("../../assets/jogos/kosovo.png"), 
   KWT: require("../../assets/jogos/kuwait.png"),
-  KUW: require("../../assets/jogos/kuwait.png"), // Código alternativo
+  KUW: require("../../assets/jogos/kuwait.png"), 
   KGZ: require("../../assets/jogos/kyrgyzstan.png"),
-  KYR: require("../../assets/jogos/kyrgyzstan.png"), // Código alternativo
+  KYR: require("../../assets/jogos/kyrgyzstan.png"), 
 
   // === L ===
   LAO: require("../../assets/jogos/laos.png"),
   LVA: require("../../assets/jogos/latvia.png"),
-  LAT: require("../../assets/jogos/latvia.png"), // Código esportivo
+  LAT: require("../../assets/jogos/latvia.png"), 
   LBN: require("../../assets/jogos/lebanon.png"),
-  LIB: require("../../assets/jogos/lebanon.png"), // Código esportivo
+  LIB: require("../../assets/jogos/lebanon.png"), 
   LSO: require("../../assets/jogos/lesotho.png"),
-  LES: require("../../assets/jogos/lesotho.png"), // Código esportivo
+  LES: require("../../assets/jogos/lesotho.png"), 
   LBR: require("../../assets/jogos/liberia.png"),
   LBY: require("../../assets/jogos/libya.png"),
-  LBA: require("../../assets/jogos/libya.png"), // Código esportivo
+  LBA: require("../../assets/jogos/libya.png"), 
   LIE: require("../../assets/jogos/liechtenstein.png"),
   LTU: require("../../assets/jogos/lithuania.png"),
-  LIT: require("../../assets/jogos/lithuania.png"), // Código esportivo
+  LIT: require("../../assets/jogos/lithuania.png"), 
   LUX: require("../../assets/jogos/luxembourg.png"),
 
   // === M ===
   MAC: require("../../assets/jogos/macao.png"),
   MDG: require("../../assets/jogos/madagascar.png"),
-  MAD: require("../../assets/jogos/madagascar.png"), // Código esportivo
-  MAD_IS: require("../../assets/jogos/madeira.png"), // Madeira
+  MAD: require("../../assets/jogos/madagascar.png"), 
+  MAD_IS: require("../../assets/jogos/madeira.png"), 
   MWI: require("../../assets/jogos/malawi.png"),
-  MAW: require("../../assets/jogos/malawi.png"), // Código esportivo
+  MAW: require("../../assets/jogos/malawi.png"), 
   MYS: require("../../assets/jogos/malaysia.png"),
-  MAS: require("../../assets/jogos/malaysia.png"), // Código esportivo
+  MAS: require("../../assets/jogos/malaysia.png"), 
   MDV: require("../../assets/jogos/maldives.png"),
   MLI: require("../../assets/jogos/mali.png"),
   MLT: require("../../assets/jogos/malta.png"),
   MHL: require("../../assets/jogos/marshall island.png"),
   MTQ: require("../../assets/jogos/martinique.png"),
   MRT: require("../../assets/jogos/mauritania.png"),
-  MTN: require("../../assets/jogos/mauritania.png"), // Código alternativo
+  MTN: require("../../assets/jogos/mauritania.png"), 
   MUS: require("../../assets/jogos/mauritius.png"),
-  MRI: require("../../assets/jogos/mauritius.png"), // Código esportivo
-  MEL: require("../../assets/jogos/melilla.png"), // Melilla
+  MRI: require("../../assets/jogos/mauritius.png"), 
+  MEL: require("../../assets/jogos/melilla.png"), 
   MEX: require("../../assets/jogos/mexico.png"),
   FSM: require("../../assets/jogos/micronesia.png"),
   MDA: require("../../assets/jogos/moldova.png"),
-  MLD: require("../../assets/jogos/moldova.png"), // Código alternativo
+  MLD: require("../../assets/jogos/moldova.png"), 
   MCO: require("../../assets/jogos/monaco.png"),
-  MON: require("../../assets/jogos/monaco.png"), // Código esportivo
+  MON: require("../../assets/jogos/monaco.png"), 
   MNG: require("../../assets/jogos/mongolia.png"),
   MNE: require("../../assets/jogos/montenegro.png"),
-  MNT: require("../../assets/jogos/montenegro.png"), // Código alternativo
+  MNT: require("../../assets/jogos/montenegro.png"), 
   MSR: require("../../assets/jogos/montserrat.png"),
   MAR: require("../../assets/jogos/morocco.png"),
   MOZ: require("../../assets/jogos/mozambique.png"),
   MMR: require("../../assets/jogos/myanmar.png"),
-  MYA: require("../../assets/jogos/myanmar.png"), // Código esportivo
+  MYA: require("../../assets/jogos/myanmar.png"), 
 
   // === N ===
   NAM: require("../../assets/jogos/namibia.png"),
-  NATO: require("../../assets/jogos/nato.png"), // OTAN
+  NATO: require("../../assets/jogos/nato.png"), 
   NRU: require("../../assets/jogos/nauru.png"),
   NPL: require("../../assets/jogos/nepal.png"),
-  NEP: require("../../assets/jogos/nepal.png"), // Código esportivo
+  NEP: require("../../assets/jogos/nepal.png"), 
   NLD: require("../../assets/jogos/netherlands.png"),
-  NED: require("../../assets/jogos/netherlands.png"), // Código esportivo
-  HOL: require("../../assets/jogos/netherlands.png"), // Código alternativo (Holland)
+  NED: require("../../assets/jogos/netherlands.png"), 
+  HOL: require("../../assets/jogos/netherlands.png"), 
   NZL: require("../../assets/jogos/new zealand.png"),
   NIC: require("../../assets/jogos/nicaragua.png"),
-  NCA: require("../../assets/jogos/nicaragua.png"), // Código esportivo
+  NCA: require("../../assets/jogos/nicaragua.png"), 
   NER: require("../../assets/jogos/niger.png"),
-  NIG: require("../../assets/jogos/niger.png"), // Código esportivo
+  NIG: require("../../assets/jogos/niger.png"), 
   NGA: require("../../assets/jogos/nigeria.png"),
   NIU: require("../../assets/jogos/niue.png"),
   NFK: require("../../assets/jogos/norfolk island.png"),
   PRK: require("../../assets/jogos/north korea.png"),
-  CYN: require("../../assets/jogos/northern cyprus.png"), // Chipre do Norte
+  CYN: require("../../assets/jogos/northern cyprus.png"), 
   MNP: require("../../assets/jogos/northern marianas islands.png"),
   NOR: require("../../assets/jogos/norway.png"),
 
   // === O ===
   OMN: require("../../assets/jogos/oman.png"),
-  OMA: require("../../assets/jogos/oman.png"), // Código esportivo
-  ORK: require("../../assets/jogos/orkney islands.png"), // Ilhas Orkney
-  OSS: require("../../assets/jogos/ossetia.png"), // Ossétia
+  OMA: require("../../assets/jogos/oman.png"), 
+  ORK: require("../../assets/jogos/orkney islands.png"), 
+  OSS: require("../../assets/jogos/ossetia.png"), 
 
   // === P ===
   PAK: require("../../assets/jogos/pakistan.png"),
   PLW: require("../../assets/jogos/palau.png"),
-  PAL: require("../../assets/jogos/palau.png"), // Código alternativo
+  PAL: require("../../assets/jogos/palau.png"), 
   PSE: require("../../assets/jogos/palestine.png"),
-  PLE: require("../../assets/jogos/palestine.png"), // Código esportivo
+  PLE: require("../../assets/jogos/palestine.png"), 
   PAN: require("../../assets/jogos/panama.png"),
   PNG: require("../../assets/jogos/papua new guinea.png"),
   PRY: require("../../assets/jogos/paraguay.png"),
-  PAR: require("../../assets/jogos/paraguay.png"), // Código esportivo
+  PAR: require("../../assets/jogos/paraguay.png"), 
   PER: require("../../assets/jogos/peru.png"),
   PHL: require("../../assets/jogos/philippines.png"),
-  PHI: require("../../assets/jogos/philippines.png"), // Código esportivo
+  PHI: require("../../assets/jogos/philippines.png"), 
   PCN: require("../../assets/jogos/pitcairn islands.png"),
   POL: require("../../assets/jogos/poland.png"),
   PRT: require("../../assets/jogos/portugal.png"),
-  POR: require("../../assets/jogos/portugal.png"), // Código esportivo
+  POR: require("../../assets/jogos/portugal.png"), 
   PRI: require("../../assets/jogos/puerto rico.png"),
-  PUR: require("../../assets/jogos/puerto rico.png"), // Código esportivo
+  PUR: require("../../assets/jogos/puerto rico.png"), 
 
   // === Q ===
   QAT: require("../../assets/jogos/qatar.png"),
 
   // === R ===
-  RNI: require("../../assets/jogos/Rapa Nui.png"), // Ilha de Páscoa
+  RNI: require("../../assets/jogos/Rapa Nui.png"), 
   MKD: require("../../assets/jogos/republic of macedonia.png"),
-  MAC_REP: require("../../assets/jogos/republic of macedonia.png"), // Código alternativo
+  MAC_REP: require("../../assets/jogos/republic of macedonia.png"), 
   COG: require("../../assets/jogos/republic of the congo.png"),
-  RCG: require("../../assets/jogos/republic of the congo.png"), // Código alternativo
+  RCG: require("../../assets/jogos/republic of the congo.png"), 
   ROU: require("../../assets/jogos/romania.png"),
-  ROM: require("../../assets/jogos/romania.png"), // Código esportivo
+  ROM: require("../../assets/jogos/romania.png"), 
   RUS: require("../../assets/jogos/russia.png"),
-  RSU: require("../../assets/jogos/russia.png"), // Código alternativo
+  RSU: require("../../assets/jogos/russia.png"), 
   RWA: require("../../assets/jogos/rwanda.png"),
 
   // === S ===
-  SAB: require("../../assets/jogos/saba island.png"), // Ilha Saba
-  SAH: require("../../assets/jogos/sahrawi arab democratic republic.png"), // Saara Ocidental
+  SAB: require("../../assets/jogos/saba island.png"), 
+  SAH: require("../../assets/jogos/sahrawi arab democratic republic.png"), 
   WSM: require("../../assets/jogos/samoa.png"),
-  SAM: require("../../assets/jogos/samoa.png"), // Código esportivo
+  SAM: require("../../assets/jogos/samoa.png"), 
   SMR: require("../../assets/jogos/san marino.png"),
   STP: require("../../assets/jogos/sao tome and prince.png"),
-  SAR: require("../../assets/jogos/sardinia.png"), // Sardenha
+  SAR: require("../../assets/jogos/sardinia.png"), 
   SAU: require("../../assets/jogos/saudi arabia.png"),
-  KSA: require("../../assets/jogos/saudi arabia.png"), // Código esportivo
-  SCO: require("../../assets/jogos/scotland.png"), // Escócia
+  KSA: require("../../assets/jogos/saudi arabia.png"), 
+  SCO: require("../../assets/jogos/scotland.png"), 
   SEN: require("../../assets/jogos/senegal.png"),
   SRB: require("../../assets/jogos/serbia.png"),
-  SYC: require("../../assets/jogos/seychelles.png"),
-  SEY: require("../../assets/jogos/seychelles.png"), // Código esportivo
+  SYC: require("../../assets/jogos/seychelles.png"), 
   SLE: require("../../assets/jogos/sierra leone.png"),
-  SIE: require("../../assets/jogos/sierra leone.png"), // Código esportivo
+  SIE: require("../../assets/jogos/sierra leone.png"), 
   SGP: require("../../assets/jogos/singapore.png"),
-  SIN: require("../../assets/jogos/singapore.png"), // Código esportivo
-  EUS: require("../../assets/jogos/sint eustatius.png"), // Santo Eustáquio
-  SXM: require("../../assets/jogos/sint maarten.png"), // São Martinho
+  SIN: require("../../assets/jogos/singapore.png"), 
+  EUS: require("../../assets/jogos/sint eustatius.png"), 
+  SXM: require("../../assets/jogos/sint maarten.png"), 
   SVK: require("../../assets/jogos/slovakia.png"),
-  SLO: require("../../assets/jogos/slovakia.png"), // Código esportivo
+   SLO: require("../../assets/jogos/slovakia.png"), 
   SVN: require("../../assets/jogos/slovenia.png"),
-  SLV: require("../../assets/jogos/slovenia.png"), // Código esportivo
+  SLV: require("../../assets/jogos/slovenia.png"), 
   SLB: require("../../assets/jogos/solomon islands.png"),
-  SOL: require("../../assets/jogos/solomon islands.png"), // Código esportivo
+  SOL: require("../../assets/jogos/solomon islands.png"), 
   SOM: require("../../assets/jogos/somalia.png"),
-  SOL_LAND: require("../../assets/jogos/somaliland.png"), // Somalilândia
+  SOL_LAND: require("../../assets/jogos/somaliland.png"), 
   ZAF: require("../../assets/jogos/south africa.png"),
-  RSA: require("../../assets/jogos/south africa.png"), // Código esportivo
-  SAF: require("../../assets/jogos/south africa.png"), // Código alternativo
+  RSA: require("../../assets/jogos/south africa.png"), 
+  SAF: require("../../assets/jogos/south africa.png"), 
   KOR: require("../../assets/jogos/south korea.png"),
   SUD: require("../../assets/jogos/south sudan.png"),
-  SSD: require("../../assets/jogos/south sudan.png"), // Código alternativo
+  SSD: require("../../assets/jogos/south sudan.png"), 
   ESP: require("../../assets/jogos/spain.png"),
   LKA: require("../../assets/jogos/sri lanka.png"),
-  SRI: require("../../assets/jogos/sri lanka.png"), // Código esportivo
-  BLM: require("../../assets/jogos/st barts.png"), // São Bartolomeu
+  SRI: require("../../assets/jogos/sri lanka.png"), 
+  BLM: require("../../assets/jogos/st barts.png"), 
   LCA: require("../../assets/jogos/st lucia.png"),
   VCT: require("../../assets/jogos/st vincent and the grenadines.png"),
-  VIN: require("../../assets/jogos/st vincent and the grenadines.png"), // Código esportivo
+  VIN: require("../../assets/jogos/st vincent and the grenadines.png"), 
   SDN: require("../../assets/jogos/sudan.png"),
   SUR: require("../../assets/jogos/suriname.png"),
   SWZ: require("../../assets/jogos/swaziland.png"),
-  SWA: require("../../assets/jogos/swaziland.png"), // Código esportivo
+  SWA: require("../../assets/jogos/swaziland.png"), 
   SWE: require("../../assets/jogos/sweden.png"),
   CHE: require("../../assets/jogos/switzerland.png"),
-  SUI: require("../../assets/jogos/switzerland.png"), // Código esportivo
-  SWI: require("../../assets/jogos/switzerland.png"), // Código alternativo
+  SUI: require("../../assets/jogos/switzerland.png"), 
+  SWI: require("../../assets/jogos/switzerland.png"), 
   SYR: require("../../assets/jogos/syria.png"),
 
   // === T ===
   TWN: require("../../assets/jogos/taiwan.png"),
-  TPE: require("../../assets/jogos/taiwan.png"), // Código esportivo
+  TPE: require("../../assets/jogos/taiwan.png"), 
   TJK: require("../../assets/jogos/tajikistan.png"),
   TZA: require("../../assets/jogos/tanzania.png"),
-  TAN: require("../../assets/jogos/tanzania.png"), // Código esportivo
+  TAN: require("../../assets/jogos/tanzania.png"), 
   THA: require("../../assets/jogos/thailand.png"),
-  TIB: require("../../assets/jogos/tibet.png"), // Tibete
+  TIB: require("../../assets/jogos/tibet.png"), 
   TGO: require("../../assets/jogos/togo.png"),
   TKL: require("../../assets/jogos/tokelau.png"),
   TON: require("../../assets/jogos/tonga.png"),
-  TGA: require("../../assets/jogos/tonga.png"), // Código esportivo
-  TRA: require("../../assets/jogos/transnistria.png"), // Transnístria
+  TGA: require("../../assets/jogos/tonga.png"), 
+  TRA: require("../../assets/jogos/transnistria.png"), 
   TTO: require("../../assets/jogos/trinidad and tobago.png"),
-  TRI: require("../../assets/jogos/trinidad and tobago.png"), // Código esportivo
+  TRI: require("../../assets/jogos/trinidad and tobago.png"), 
   TUN: require("../../assets/jogos/tunisia.png"),
   TUR: require("../../assets/jogos/turkey.png"),
   TKM: require("../../assets/jogos/turkmenistan.png"),
@@ -389,32 +392,36 @@ export const FLAGS = {
   UGA: require("../../assets/jogos/uganda.png"),
   UKR: require("../../assets/jogos/ukraine.png"),
   ARE: require("../../assets/jogos/united arab emirates.png"),
-  UAE: require("../../assets/jogos/united arab emirates.png"), // Código esportivo
+  UAE: require("../../assets/jogos/united arab emirates.png"), 
   GBR: require("../../assets/jogos/united kingdom.png"),
-  UK: require("../../assets/jogos/united kingdom.png"), // Código alternativo
-  UN: require("../../assets/jogos/united nations.png"), // ONU
+  UK: require("../../assets/jogos/united kingdom.png"), 
+  UN: require("../../assets/jogos/united nations.png"), 
   USA: require("../../assets/jogos/united states.png"),
   URY: require("../../assets/jogos/uruguay.png"),
-  URU: require("../../assets/jogos/uruguay.png"), // Código esportivo
- UZB: require("../../assets/jogos/uzbekistan.png"),
+  URU: require("../../assets/jogos/uruguay.png"), 
+  UZB: require("../unicopa.png"),
+
   // === V ===
   VUT: require("../../assets/jogos/vanuatu.png"),
-  VAN: require("../../assets/jogos/vanuatu.png"), // Código esportivo
+  VAN: require("../../assets/jogos/vanuatu.png"), 
   VAT: require("../../assets/jogos/vatican city.png"),
   VEN: require("../../assets/jogos/venezuela.png"),
   VNM: require("../../assets/jogos/vietnam.png"),
-  VIE: require("../../assets/jogos/vietnam.png"), // Código esportivo
+  VIE: require("../../assets/jogos/vietnam.png"), 
   VIR: require("../../assets/jogos/virgin islands.png"),
 
   // === W ===
-  WAL: require("../../assets/jogos/wales.png"), // País de Gales
+  WAL: require("../../assets/jogos/wales.png"), 
 
   // === Y ===
   YEM: require("../../assets/jogos/yemen.png"),
 
   // === Z ===
   ZMB: require("../../assets/jogos/zambia.png"),
-  ZAM: require("../../assets/jogos/zambia.png"), // Código esportivo
+  ZAM: require("../../assets/jogos/zambia.png"), 
   ZWE: require("../../assets/jogos/zimbabwe.png"),
-  ZIM: require("../../assets/jogos/zimbabwe.png"), // Código esportivo
+  ZIM: require("../../assets/jogos/zimbabwe.png"), 
 };
+
+// EXPORTAÇÃO DA CONSTANTE
+export default FLAGS;
